@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@next-auth/typeorm-legacy-adapter": "^2.0.1",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@sidebase/nuxt-auth": "^0.3.3",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.7"
+  }
+}
